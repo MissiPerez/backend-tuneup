@@ -2,11 +2,12 @@
 # -*- coding: utf-8 -*-
 """Tuneup assignment"""
 
-__author__ = "???"
+__author__ = "Missi"
 
 import cProfile
 import pstats
 import functools
+import timeit
 
 
 def profile(func):
